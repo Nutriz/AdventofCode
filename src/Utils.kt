@@ -1,0 +1,1 @@
+fun <T> T.print(msg: (T) -> Any? = { it }): T = this.apply { println(msg(this)) }
